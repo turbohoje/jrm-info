@@ -1,212 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" /> <meta http-equiv="Expires" content="0" />
-<!-- Global site tag (gtag.js) - Google Analytics -->
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justin Meyer — Technical Lead Manager & Site Reliability Engineer | Denver, CO</title>
+  <meta name="description" content="26-year software and infrastructure engineering leader. Technical Lead Manager at AppOmni. Expert in SRE, DevOps, Kubernetes, cloud platforms (AWS/GCP/Azure), FedRAMP, and SOC2. MSc Data Engineering, PMP, CSM.">
+  <meta name="keywords" content="Site Reliability Engineer, Technical Lead Manager, SRE, DevOps, Platform Engineering, Kubernetes, Cloud Infrastructure, AWS, GCP, Azure, FedRAMP, SOC2, Python, Go, Golang, Terraform, Infrastructure as Code, AppOmni, Denver, Colorado, Staff Engineer, Engineering Manager, Data Engineering, FinOps">
+  <meta name="author" content="Justin R Meyer">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://justinrmeyer.com">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Justin Meyer — Technical Lead Manager & Site Reliability Engineer | Denver, CO">
+  <meta property="og:description" content="26-year software and infrastructure engineering leader. Technical Lead Manager at AppOmni. Expert in SRE, DevOps, Kubernetes, cloud platforms (AWS/GCP/Azure), FedRAMP, and SOC2. MSc Data Engineering, PMP, CSM.">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://justinrmeyer.com">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Justin Meyer — Technical Lead Manager & Site Reliability Engineer | Denver, CO">
+  <meta name="twitter:description" content="26-year software and infrastructure engineering leader. Technical Lead Manager at AppOmni. Expert in SRE, DevOps, Kubernetes, cloud platforms (AWS/GCP/Azure), FedRAMP, and SOC2. MSc Data Engineering, PMP, CSM.">
+  <!-- schema.org structured data -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Justin R Meyer",
+  "url": "https://justinrmeyer.com",
+  "email": "resume@justinrmeyer.com",
+  "telephone": "303-834-7418",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Denver",
+    "addressRegion": "CO",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://linkedin.com/in/justinrmeyercom",
+    "https://justinrmeyer.com"
+  ],
+  "jobTitle": "Technical Lead Manager",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "AppOmni"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Colorado at Boulder"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Regis University Denver"
+    }
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Master of Data Engineering"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Bachelor of Computer Science"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Project Management Professional"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Certified Scrum Master"
+    }
+  ],
+  "knowsAbout": [
+    "Site Reliability Engineer",
+    "Technical Lead Manager",
+    "SRE",
+    "DevOps",
+    "Platform Engineering",
+    "Kubernetes",
+    "Cloud Infrastructure",
+    "AWS",
+    "GCP",
+    "Azure",
+    "FedRAMP",
+    "SOC2",
+    "Python",
+    "Go",
+    "Golang",
+    "Terraform",
+    "Infrastructure as Code",
+    "AppOmni",
+    "Denver",
+    "Colorado",
+    "Staff Engineer",
+    "Engineering Manager",
+    "Data Engineering",
+    "FinOps"
+  ],
+  "description": "26-year software and infrastructure engineering leader. Technical Lead Manager at AppOmni. Expert in SRE, DevOps, Kubernetes, cloud platforms (AWS/GCP/Azure), FedRAMP, and SOC2. MSc Data Engineering, PMP, CSM.\n"
+}
+  </script>
+
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6P27RV7ZJJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-6P27RV7ZJJ');
 </script>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Justin Meyer - CV</title>
   <style>
+
+    * { box-sizing: border-box; }
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fff;
-      color: #000;
+      margin: 0; padding: 0;
+      background: #fff; color: #000;
       line-height: 1.6;
     }
     header {
-      position: sticky;
-      top: 0;
+      position: sticky; top: 0;
       background: #f8f8f8;
-      padding: 1rem;
+      padding: 0.7rem 1rem;
       text-align: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       z-index: 1000;
     }
-    header a {
-      text-decoration: none;
-      font-weight: bold;
-      color: #000;
+    header a { text-decoration: none; font-weight: bold; color: #000; }
+    header a:hover { text-decoration: underline; }
+    .container { padding: 1rem 2rem; max-width: 820px; margin: 0 auto; }
+    h1 { margin: 0.75rem 0 0.1rem; font-size: 2rem; }
+    h2 {
+      margin: 1.5rem 0 0.3rem;
+      font-size: 1.1rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.2rem;
+      color: #0055aa;
     }
-    .container {
-      padding: 1rem 2rem;
-      max-width: 800px;
-      margin: 0 auto;
+    h3 { margin: 1rem 0 0; font-size: 1rem; }
+    h4 { margin: 0.5rem 0 0; font-size: 0.95rem; color: #444; font-style: italic; font-weight: normal; }
+    .contact-info {
+      color: #555; margin: 0.2rem 0 0.8rem;
+      font-size: 0.93rem;
     }
-    h1, h2, h3 {
-      margin-top: 1.5rem;
+    .contact-info a { color: inherit; text-decoration: none; }
+    .contact-info a:hover { text-decoration: underline; }
+    p { margin: 0.4rem 0; }
+    ul { padding-left: 1.3rem; margin: 0.25rem 0 0.1rem; }
+    li { margin-bottom: 0.15rem; }
+    table {
+      width: 100%; border-collapse: collapse;
+      font-size: 0.88rem; margin-top: 0.4rem;
     }
-    ul {
-      padding-left: 1.25rem;
-    }
+    td, th { padding: 0.3rem 0.5rem; text-align: left; vertical-align: top; }
+    tr:nth-child(odd) td { background: #f9f9f9; }
+    .footer-note { color: #aaa; font-size: 0.78rem; text-align: right; margin-top: 2rem; }
     @media (max-width: 600px) {
-      .container {
-        padding: 1rem;
-      }
+      .container { padding: 1rem; }
+      h1 { font-size: 1.6rem; }
     }
+    
   </style>
 </head>
 <body>
+
   <header>
     <a href="justin-meyer-resume.pdf" download>Download PDF Resume</a>
   </header>
   <div class="container">
-    <h1>Justin Meyer</h1>
-    
-    <h2>Experience</h2>
-    
-    <h3>AppOmni (Technical Lead Manager, Jan 2025 – Present)</h3>
-    <ul>
-      <li>Served as DRI for FinOps operations and billing contract negotiations, ensuring financial efficiency and favorable vendor terms.</li>
-      <li>Championed agile process improvements that elevated team discipline, visibility, and delivery predictability.</li>
-      <li>Established a blameless incident culture and regular retrospectives, fostering continuous improvement and accountability while implementing FireHydrant to enhance incident response.</li>
-    </ul>
-    <h3>AppOmni (Lead Site Reliability Engineer, Nov 2023 – Jan 2025)</h3>
-    <ul>
-      <li>Grew SRE team from 1 to 5 engineers, improving operational resilience and efficiency.</li>
-      <li>Managed and scaled SSPM/SEIM systems, supporting organizational security and compliance.</li>
-      <li>Maintained FedRAMP and SOC2 compliance, bolstering stakeholder trust.</li>
-      <li>Optimized cloud architecture, alleviating oversubscribed stacks and reducing costs.</li>
-    </ul>
+<h1>Justin R Meyer</h1>
+<p class="contact-info"><a href="tel:303-834-7418">303-834-7418</a> &nbsp;|&nbsp; <a href="mailto:resume@justinrmeyer.com">resume@justinrmeyer.com</a> &nbsp;|&nbsp; Denver, CO &nbsp;|&nbsp; <a href="https://justinrmeyer.com" rel="noopener noreferrer">JustinRMeyer.com</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/justinrmeyercom" rel="noopener noreferrer">/in/justinrmeyercom</a></p>
+<h2>Summary</h2>
+<p>Accomplished engineering leader and software architect with 26+ years spanning full-stack development, site reliability engineering, and technical management. Currently Technical Lead Manager at AppOmni, responsible for FinOps, FedRAMP/SOC2 compliance, and engineering excellence. Track record of building and scaling high-performing SRE teams, managing complex cloud infrastructure, and delivering operational resilience across regulated environments.</p>
+<h2>Experience</h2>
+<h3>Andromeda Cluster — AI Infrastructure Engineer</h3>
+<p><strong>Dec 2025 – Present</strong> | Denver, CO (Remote)</p>
+<ul>
+<li>Delivered escalated support for Andromeda customers, partnering directly with GPU hardware vendors to diagnose and resolve infrastructure level issues across cloud environments.</li>
+<li>Launched the first aggregated observability platform for a heterogeneous fleet of Slurm clusters and raw GPU Kubernetes deployments, improving visibility, incident response time, and operational consistency.</li>
+<li>Led regular Argo CD and Helm upgrade cycles, conducting peer reviews and enforcing deployment best practices to maintain platform stability and release reliability.</li>
+</ul>
+<h3>AppOmni — Technical Lead Manager</h3>
+<p><strong>Jan 2025 – Dec 2025</strong> | Denver, CO</p>
+<ul>
+<li>Served as DRI for FinOps operations and billing contract negotiations, ensuring financial efficiency and favorable vendor terms.</li>
+<li>Championed agile process improvements that elevated team discipline, visibility, and delivery predictability.</li>
+<li>Established a blameless incident culture and regular retrospectives, fostering continuous improvement and accountability while implementing FireHydrant to enhance incident response.</li>
+</ul>
+<h3>AppOmni — Lead Site Reliability Engineer</h3>
+<p><strong>Nov 2023 – Jan 2025</strong> | Denver, CO</p>
+<ul>
+<li>Grew SRE team from 1 to 5 engineers, improving operational resilience and efficiency.</li>
+<li>Managed and scaled SSPM/SEIM systems, supporting organizational security and compliance.</li>
+<li>Maintained FedRAMP and SOC2 compliance, bolstering stakeholder trust.</li>
+<li>Optimized cloud architecture, alleviating oversubscribed stacks and reducing costs.</li>
+</ul>
+<h3>Crusoe — Staff Site Reliability Engineer</h3>
+<p><strong>Aug 2021 – Nov 2023</strong> | Denver, CO (Remote)</p>
+<ul>
+<li>Ground-to-cloud management of GPU cloud offering.</li>
+<li>First SRE hire; grew and led the team to 6 members, scaling from 1 mobile data center to 5.</li>
+<li>Full lifecycle cloud infrastructure: PXE, MaaS, Ansible, Rocky Linux, libvirt, Tailscale, nginx/Pomerium, Kubernetes, gRPC.</li>
+</ul>
+<h3>Adobe — Staff Site Reliability Engineer</h3>
+<p><strong>Jan 2021 – Aug 2021</strong></p>
+<ul>
+<li>GCP migration and alignment; led SDLC across multiple projects.</li>
+<li>AWS re-architect for Sales Connect.</li>
+</ul>
+<h4>Sr. Site Reliability Engineer — Marketo (Adobe)</h4>
+<p><strong>Mar 2019 – Jan 2021</strong></p>
+<ul>
+<li>Ongoing migration to containerized and cloud-native deployments.</li>
+<li>Monitoring and logging improvements for Marketo's bare-metal Kubernetes clusters.</li>
+<li>Management of 6k hosts via Puppet, pdsh, and Ansible.</li>
+<li>Unified authentication with sssd, pam.d, and corporate LDAP.</li>
+</ul>
+<h3>eBay — Site Reliability Engineer</h3>
+<p><strong>Jul 2017 – Mar 2019</strong> | Remote</p>
+<ul>
+<li>Covered 300B events/day across 6k services in the NOC/SEC (Nov 2018 – Mar 2019).</li>
+<li>Expanded mobile market into China; implemented oAuth flows (Scala/Play, Python/Flask).</li>
+<li>Infrastructure as Code using Terraform, GCP; chat bot integration; Drone CI/CD.</li>
+<li>Multi-region monitoring, GCP/GKE cost reduction analysis, log aggregation in k8s (daemonset, Sumologic).</li>
+<li>Security auditing in GKE (Fluentd, Stackdriver), centralized Nexus repo/CD, HashiCorp Vault secrets.</li>
+<li>Fraud detection / browser fingerprinting.</li>
+</ul>
+<h3>AppThis — Full Stack Dev / SRE</h3>
+<p><strong>Jan 2017 – Jul 2017</strong></p>
+<ul>
+<li>AWS engineer: cost reduction, near 1B events/day throughput.</li>
+<li>Automation with Salt Stack.</li>
+<li>Custom HAProxy scaling with request processing SLA &lt; 100ms.</li>
+<li>Log shipping migration to streams.</li>
+<li>PHP (HipHop, PHP7), Java, Scala (Play).</li>
+</ul>
+<h3>CenturyLink — Full Stack Java Developer</h3>
+<p><strong>Nov 2016 – Jan 2017</strong> | Contract</p>
+<ul>
+<li>VeuxDu team member on e911 and SpeakEasy projects.</li>
+<li>Java 1.8 + Spring Boot microservice migration.</li>
+</ul>
+<h3>Starz Entertainment — Sr. Cloud Engineer</h3>
+<p><strong>Jun 2016 – Nov 2016</strong></p>
+<ul>
+<li>Maintained AWS and local tooling: Terraform, Consul, Nomad, Packer, Docker, Bamboo, Ansible.</li>
+<li>Built PaaS-agnostic redirect dashboard for starz.com (Meteor/Node + Angular2 frontend managing nginx cluster).</li>
+</ul>
+<h3>Think Tank — Senior Developer</h3>
+<p><strong>2015 – Jun 2016</strong></p>
+<ul>
+<li>Full-stack Java developer supporting and maintaining hosted and installed SaaS collaboration product.</li>
+<li>Employed in-memory database for contribution-based transaction shipping and long polling.</li>
+<li>Led microservices migration from monolith architecture.</li>
+<li>Stack: Spring Security, SAML2, Jetty, Install4J, Comet, Angular, GWT, .NET interop, Redis, ActiveMQ, DataDog.</li>
+</ul>
+<h3>Rocket Science Innovation, LLC — Founder / Contract Developer</h3>
+<p><strong>2006 – 2019</strong> | Remote / On-site</p>
+<ul>
+<li>Founder of a technology development corporation.</li>
+<li>13-year ongoing contract with Open Range Access (oil field data telemetry).</li>
+<li>Object-oriented software development with PHP, Java, Perl, JavaScript, Python.</li>
+<li>DevOps: VPC setup and on-premise to cloud migrations.</li>
+<li>Hardware design, PCB layout, microcontroller programming, Satellite/RF/Cellular communications.</li>
+<li>Real-time telemetry logging and ETL to production accounting software.</li>
+</ul>
+<h3>Xilinx — System Developer</h3>
+<p><strong>2009 – 2015</strong></p>
+<h3>Codeffects.com, LLC — Co-Founder</h3>
+<p><strong>2001 – 2006</strong></p>
+<h3>University of Colorado Web Communications — Lead Developer</h3>
+<p><strong>1999 – 2006</strong></p>
+<h2>Technical Skills</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Technologies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>OS / Container</strong></td>
+<td>Linux/Unix (Rocky, Debian), Kubernetes, Docker, Swarm, Podman</td>
+</tr>
+<tr>
+<td><strong>Cloud Providers</strong></td>
+<td>Crusoe, GCP, AWS, Azure, Digital Ocean</td>
+</tr>
+<tr>
+<td><strong>Testing</strong></td>
+<td>Cypress, Headless Chrome, Selenium, Gatling, JMeter, QUnit, TDD</td>
+</tr>
+<tr>
+<td><strong>Build Tools</strong></td>
+<td>GitLab CI, Drone, Jenkins, SBT, Ant, Maven, Gradle, Nexus/Artifactory</td>
+</tr>
+<tr>
+<td><strong>Source Control</strong></td>
+<td>Git, SVN — ChatOps: hubot, yetibot, atlantis</td>
+</tr>
+<tr>
+<td><strong>Programming</strong></td>
+<td>Python, Perl, Java, JavaScript, Go, C/C++/C#, Scala, .NET/MVC, PHP, Ruby, embedded-VB, CSS, bash/zsh</td>
+</tr>
+<tr>
+<td><strong>Deployment</strong></td>
+<td>Argo, FluxCD, AWX, Helm, MaaS, Docker, Install4J, Ansible, Salt, Puppet, Packer, Terraform, Terragrunt</td>
+</tr>
+<tr>
+<td><strong>Frameworks / Servers</strong></td>
+<td>Flask, Django, Play, Spring, Sencha, jQuery, D3.js, Highcharts, Hibernate, MyBatis, CQ5 / Nginx, Apache, Caddy, Jetty, Tomcat, Node, Comet, IIS</td>
+</tr>
+<tr>
+<td><strong>Databases</strong></td>
+<td>PostgreSQL, MySQL, MongoDB, Cassandra, Elasticsearch, BigQuery, BigTable, Spanner, Redshift, RDS, PL/SQL, MSSQL, Flyway</td>
+</tr>
+<tr>
+<td><strong>ETL / BI</strong></td>
+<td>R-Project, Talend, Spark, POSIX RegEx</td>
+</tr>
+<tr>
+<td><strong>Other</strong></td>
+<td>Tailscale, HashiCorp Vault, OpsGenie, IAM, Hadoop, QEMU, VirtualBox, VMware, Parallels</td>
+</tr>
+</tbody>
+</table>
+<h2>Education</h2>
+<h3>University of Colorado at Boulder</h3>
+<p><strong>Aug 1999 – May 2004</strong> — Bachelor of Computer Science</p>
+<p><em>(Jun 2005 – Dec 2005, incomplete: BS in Mechanical Engineering)</em></p>
+<h3>General Assembly</h3>
+<p><strong>Oct – Dec 2019</strong> — Data Science in Python</p>
+<h3>Regis University Denver</h3>
+<p><strong>Aug 2020 – Mar 2023</strong> — Master of Data Engineering, 4.0 GPA</p>
+<h2>Professional Development</h2>
+<ul>
+<li>Project Management Professional Certification (PMI.org)</li>
+<li>Coursera: Computing for Data Analysis; Data Analysis and Statistical Inference; Programming Mobile Applications for Android</li>
+<li>Udemy: Leadership Masterclass; 80/20 Product Ownership</li>
+<li>Certified Scrum Master (ScrumAlliance.org)</li>
+</ul>
+<!-- ## Volunteer
 
-    <h3>Crusoe Energy (Staff Site Reliability Engineer, Aug 2021 – Nov 2023)</h3>
-    <ul>
-      <li>Ground-to-cloud GPU offering management.</li>
-      <li>First SRE, scaling the team from 1 to 6, expanding mobile data centers from 1 to 5.</li>
-      <li>Full lifecycle cloud: PXE, MaaS, Ansible, Rocky Linux, libvirt, tailscale, nginx/pomerium, Kubernetes, gRPC.</li>
-    </ul>
-
-    <h3>Adobe (Staff Site Reliability Engineer, Jan 2021 – Aug 2021)</h3>
-    <ul>
-      <li>GCP migration and alignment; led SDLC across multiple projects.</li>
-      <li>AWS re-architect for Sales Connect.</li>
-    </ul>
-
-    <h4>Sr. Site Reliability Engineer (Mar 2019 – Jan 2021)</h4>
-    <ul>
-      <li>Migrated to containerized/cloud-native deployments.</li>
-      <li>Monitoring and logging improvements for Marketo’s bare-metal k8s clusters.</li>
-      <li>Management of 6k hosts (Puppet, pdsh, Ansible).</li>
-      <li>Unified authentication via sssd, pam.d, and corporate LDAP.</li>
-    </ul>
-
-    <h3>eBay (Site Reliability Engineer, Jul 2017 – Mar 2019)</h3>
-    <ul>
-      <li>Covered 300B events/day across 6k services in the NOC/SEC (Nov 2018 – Mar 2019).</li>
-      <li>Expanded mobile market in China; implemented oAuth flows (Scala/Play, Python/Flask).</li>
-      <li>Infrastructure as Code (Terraform, GCP), chat bot integration, Drone CI/CD.</li>
-      <li>Multi-region monitoring, GCP/GKE cost analysis, logging in k8s (daemonset, sumologic).</li>
-      <li>Security auditing in GKE (Fluentd, Stackdriver), centralized Nexus repo/CD, Vault secrets.</li>
-      <li>Fraud detection / browser fingerprinting.</li>
-    </ul>
-
-    <h3>AppThis (Full Stack Dev / SRE, Jan 2017 – Jul 2017)</h3>
-    <ul>
-      <li>AWS engineer: cost reduction, near 1B events/day.</li>
-      <li>Automation with Salt Stack.</li>
-      <li>Custom HAProxy scaling with SLA &lt; 100ms.</li>
-      <li>Log shipping migration to streams.</li>
-      <li>PHP (HipHop, PHP7), Java, Scala (Play).</li>
-    </ul>
-
-    <h3>Century Link (Full Stack Java Developer, Nov 2016 – Jan 2017)</h3>
-    <ul>
-      <li>Contributed to e911 and SpeakEasy projects.</li>
-      <li>Java 1.8 + Spring Boot microservice migration.</li>
-    </ul>
-
-    <h3>Starz Entertainment (Sr. Cloud Engineer, Jun 2016 – Nov 2016)</h3>
-    <ul>
-      <li>Maintained AWS/local tooling with Terraform, Consul, Nomad, Packer, Docker, Bamboo, Ansible.</li>
-      <li>Built PaaS-agnostic dashboard (Meteor/Node + Angular2) for starz.com redirects.</li>
-    </ul>
-
-    <h3>Think Tank (Senior Developer, 2015 – Jun 2016)</h3>
-    <ul>
-      <li>Full-stack Java developer on hosted & installed SaaS collaboration product.</li>
-      <li>In-memory DB for transaction shipping and long polling.</li>
-      <li>Led microservices migration from monolith architecture.</li>
-      <li>Technologies: Spring Security, SAML2, Jetty, Comet, Angular, GWT, .NET interop, Redis, ActiveMQ, DataDog.</li>
-    </ul>
-
-    <h3>Rocket Science Innovation, LLC (Founder/Contract Dev, 2006 – 2019)</h3>
-    <ul>
-      <li>13-year ongoing contract with Open Range Access (oil field data telemetry).</li>
-      <li>OO Software Dev with PHP, Java, Perl, JS, Python.</li>
-      <li>DevOps: VPC setup, on-prem to cloud migrations.</li>
-      <li>Hardware design, microcontroller programming, RF/Cellular comms.</li>
-      <li>Real-time telemetry logging & ETL for production accounting.</li>
-    </ul>
-
-    <h3>Xilinx (System Developer, 2009 – 2015)</h3>
-
-    <h3>Codeffects.com, LLC (Co-Founder, 2001 – 2006)</h3>
-
-    <h3>University of Colorado Web Communications (Lead Developer, 1999 – 2006)</h3>
-  </section>
-
-  <!-- Skills Section -->
-  <section>
-    <h2>Technical Skills</h2>
-    <ul>
-      <li><strong>OS/Container:</strong> Linux/Unix (Rocky, Debian), Kubernetes, Docker, Swarm, Podman</li>
-      <li><strong>Cloud Providers:</strong> Crusoe, GCP, AWS, Azure, Digital Ocean</li>
-      <li><strong>Testing Tools:</strong> Cypress, Headless Chrome, Selenium, Gatling, JMeter, QUnit, TDD</li>
-      <li><strong>Build Tools:</strong> Gitlab CI, Drone, Jenkins, SBT, Ant, Maven, Gradle, Nexus/Artifactory</li>
-      <li><strong>Source Control:</strong> Git, SVN; <strong>ChatOps:</strong> hubot, yetibot, atlantis</li>
-      <li><strong>Programming:</strong> Python, Perl, Java, JavaScript, Go, C/C++/#, Scala, .NET, MVC, PHP, Ruby, embedded-VB, CSS, bash/zsh</li>
-      <li><strong>Deployment:</strong> Argo, FluxCD, AWX, Helm, MaaS, Docker, Install4J, Ansible, Salt, Puppet, Packer, Terraform, Terragrunt</li>
-      <li><strong>Frameworks/Servers:</strong> Flask, Django, Play, Spring, Sencha, jQuery, D3.js, Highcharts, Hibernate, MyBatis, CQ5, Nginx, Apache, Caddy, Jetty, Tomcat, Node, Comet, IIS</li>
-      <li><strong>Databases:</strong> PostgreSQL, MySQL, Mongo, Cassandra, ElasticSearch, BigQuery, BigTable, Spanner, Redshift, RDS, PL/SQL, MSSQL, Flyway</li>
-      <li><strong>ETL/BI:</strong> R-Project, TalenD, Spark, POSIX RegEx</li>
-      <li><strong>Other:</strong> Tailscale, HashiCorp Vault, Opsgenie IAM, Hadoop, QEMU, VirtualBox, VMware, Parallels</li>
-    </ul>
-  </section>
-
-  <!-- Education Section -->
-  <section>
-    <h2>Education</h2>
-    <h3>University of Colorado at Boulder (Aug 1999 – May 2004)</h3>
-    <ul>
-      <li>Bachelor of Computer Science</li>
-      <li>June 2005 – December 2005 incomplete: BS in Mechanical Engineering</li>
-    </ul>
-
-    <h3>General Assembly (Oct – Dec 2019)</h3>
-    <ul>
-      <li>Data Science in Python</li>
-    </ul>
-
-    <h3>Regis University Denver (Aug 2020 – Mar 2023)</h3>
-    <ul>
-      <li>Master of Data Engineering (4.0 GPA)</li>
-    </ul>
-  </section>
-
-  <!-- Professional Development -->
-  <section>
-    <h2>Professional Development</h2>
-    <ul>
-      <li>Project Management Professional Certification (PMI.org)</li>
-      <li>Coursera: Computing for Data Analysis, Data Analysis and Statistical Inference, Programming Mobile Apps for Android</li>
-      <li>Udemy: Leadership Masterclass, 80/20 Product Ownership</li>
-      <li>Certified Scrum Master (scrumalliance.org)</li>
-    </ul>
-    <p><strong>Volunteer Role: AHS Advisory Board of Engineering and Computer Science</strong></p>
-    <p>Last Update: Oct 2025</p>
-  </section>
-
+- **AHS Advisory Board of Engineering and Computer Science** -->
+<p class="footer-note">Last updated: March 2026</p>
   </div>
 </body>
 </html>
