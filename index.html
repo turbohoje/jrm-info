@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Justin Meyer — Technical Lead Manager & Site Reliability Engineer | Denver, CO</title>
   <meta name="description" content="26-year software and infrastructure engineering leader. Technical Lead Manager at AppOmni. Expert in SRE, DevOps, Kubernetes, cloud platforms (AWS/GCP/Azure), FedRAMP, and SOC2. MSc Data Engineering, PMP, CSM.">
-  <meta name="keywords" content="Site Reliability Engineer, Technical Lead Manager, SRE, DevOps, Platform Engineering, Kubernetes, Cloud Infrastructure, AWS, GCP, Azure, FedRAMP, SOC2, Python, Go, Golang, Terraform, Infrastructure as Code, AppOmni, Denver, Colorado, Staff Engineer, Engineering Manager, Data Engineering, FinOps">
+  <meta name="keywords" content="Site Reliability Engineer, Technical Lead Manager, SRE, DevOps, Platform Engineering, Kubernetes, Cloud Infrastructure, AWS, GCP, Azure, FedRAMP, SOC2, Python, Go, Golang, Terraform, Infrastructure as Code, AppOmni, Denver, Colorado, Staff Engineer, Engineering Manager, Data Engineering, FinOps, CUDA, NCCL, DCGM, PyTorch, SLURM, InfiniBand, Ceph, AI Infrastructure, GPU Infrastructure, HPC">
   <meta name="author" content="Justin R Meyer">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://justinrmeyer.com">
@@ -98,7 +98,17 @@
     "Staff Engineer",
     "Engineering Manager",
     "Data Engineering",
-    "FinOps"
+    "FinOps",
+    "CUDA",
+    "NCCL",
+    "DCGM",
+    "PyTorch",
+    "SLURM",
+    "InfiniBand",
+    "Ceph",
+    "AI Infrastructure",
+    "GPU Infrastructure",
+    "HPC"
   ],
   "description": "26-year software and infrastructure engineering leader. Technical Lead Manager at AppOmni. Expert in SRE, DevOps, Kubernetes, cloud platforms (AWS/GCP/Azure), FedRAMP, and SOC2. MSc Data Engineering, PMP, CSM.\n"
 }
@@ -174,13 +184,14 @@
 <h1>Justin R Meyer</h1>
 <p class="contact-info"><a href="tel:303-834-7418">303-834-7418</a> &nbsp;|&nbsp; <a href="mailto:resume@justinrmeyer.com">resume@justinrmeyer.com</a> &nbsp;|&nbsp; Denver, CO &nbsp;|&nbsp; <a href="https://justinrmeyer.com" rel="noopener noreferrer">JustinRMeyer.com</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/justinrmeyercom" rel="noopener noreferrer">/in/justinrmeyercom</a></p>
 <h2>Summary</h2>
-<p>Accomplished engineering leader and software architect with 26+ years spanning full-stack development, site reliability engineering, and technical management. Currently Technical Lead Manager at AppOmni, responsible for FinOps, FedRAMP/SOC2 compliance, and engineering excellence. Track record of building and scaling high-performing SRE teams, managing complex cloud infrastructure, and delivering operational resilience across regulated environments.</p>
+<p>Seasoned engineering leader with 26+ years spanning cloud infrastructure, site reliability, and AI/GPU systems. Proven record of building SRE organizations from scratch, driving FedRAMP/SOC2 compliance, and scaling multi-cloud platforms across regulated and high-throughput environments. Currently leading AI infrastructure and observability at Andromeda Cluster, focused on GPU-centric cloud platforms and distributed ML training pipeline reliability.</p>
 <h2>Experience</h2>
 <h3>Andromeda Cluster — AI Infrastructure Engineer</h3>
 <p><strong>Dec 2025 – Present</strong> | Denver, CO (Remote)</p>
 <ul>
-<li>Delivered escalated support for Andromeda customers, partnering directly with GPU hardware vendors to diagnose and resolve infrastructure level issues across cloud environments.</li>
+<li>Delivered escalated support for Andromeda customers, partnering directly with GPU hardware vendors to diagnose and resolve infrastructure-level hardware and storage issues across cloud environments.</li>
 <li>Launched the first aggregated observability platform for a heterogeneous fleet of Slurm clusters and raw GPU Kubernetes deployments, improving visibility, incident response time, and operational consistency.</li>
+<li>Managed AI/ML training pipeline infrastructure leveraging modern tools on distributed GPU clusters; integrated DCGM and NVIDIA NGC for GPU health monitoring and model deployment.</li>
 <li>Led regular Argo CD and Helm upgrade cycles, conducting peer reviews and enforcing deployment best practices to maintain platform stability and release reliability.</li>
 </ul>
 <h3>AppOmni — Technical Lead Manager</h3>
@@ -224,7 +235,7 @@
 <ul>
 <li>Covered 300B events/day across 6k services in the NOC/SEC (Nov 2018 – Mar 2019).</li>
 <li>Expanded mobile market into China; implemented oAuth flows (Scala/Play, Python/Flask).</li>
-<li>Infrastructure as Code using Terraform, GCP; chat bot integration; Drone CI/CD.</li>
+<li>Infrastructure as Code using Terraform, GCP; chatbot integration; Drone CI/CD.</li>
 <li>Multi-region monitoring, GCP/GKE cost reduction analysis, log aggregation in k8s (daemonset, Sumologic).</li>
 <li>Security auditing in GKE (Fluentd, Stackdriver), centralized Nexus repo/CD, HashiCorp Vault secrets.</li>
 <li>Fraud detection / browser fingerprinting.</li>
@@ -255,7 +266,7 @@
 <ul>
 <li>Full-stack Java developer supporting and maintaining hosted and installed SaaS collaboration product.</li>
 <li>Employed in-memory database for contribution-based transaction shipping and long polling.</li>
-<li>Led microservices migration from monolith architecture.</li>
+<li>Led microservices migration from monolithic architecture.</li>
 <li>Stack: Spring Security, SAML2, Jetty, Install4J, Comet, Angular, GWT, .NET interop, Redis, ActiveMQ, DataDog.</li>
 </ul>
 <h3>Rocket Science Innovation, LLC — Founder / Contract Developer</h3>
@@ -292,6 +303,14 @@
 <td>Crusoe, GCP, AWS, Azure, Digital Ocean</td>
 </tr>
 <tr>
+<td><strong>AI / ML</strong></td>
+<td>CUDA, NCCL, DCGM, PyTorch, SLURM, NVIDIA NGC, AI/ML pipelines, InfiniBand</td>
+</tr>
+<tr>
+<td><strong>Storage / HPC</strong></td>
+<td>Ceph, Weka, LightBits</td>
+</tr>
+<tr>
 <td><strong>Testing</strong></td>
 <td>Cypress, Headless Chrome, Selenium, Gatling, JMeter, QUnit, TDD</td>
 </tr>
@@ -313,7 +332,7 @@
 </tr>
 <tr>
 <td><strong>Frameworks / Servers</strong></td>
-<td>Flask, Django, Play, Spring, Sencha, jQuery, D3.js, Highcharts, Hibernate, MyBatis, CQ5 / Nginx, Apache, Caddy, Jetty, Tomcat, Node, Comet, IIS</td>
+<td>FastAPI, Flask, Django, Play, Spring, Sencha, jQuery, D3.js, Highcharts, Hibernate, MyBatis, CQ5 / Nginx, Apache, Caddy, Jetty, Tomcat, Node, Comet, IIS</td>
 </tr>
 <tr>
 <td><strong>Databases</strong></td>
@@ -325,7 +344,7 @@
 </tr>
 <tr>
 <td><strong>Other</strong></td>
-<td>Tailscale, HashiCorp Vault, OpsGenie, IAM, Hadoop, QEMU, VirtualBox, VMware, Parallels</td>
+<td>Tailscale, HashiCorp Vault, PagerDuty, IAM, Hadoop, QEMU, VirtualBox, VMware, Parallels</td>
 </tr>
 </tbody>
 </table>
@@ -344,9 +363,11 @@
 <li>Udemy: Leadership Masterclass; 80/20 Product Ownership</li>
 <li>Certified Scrum Master (ScrumAlliance.org)</li>
 </ul>
-<!-- ## Volunteer
+<!-- 
+## Volunteer
 
-- **AHS Advisory Board of Engineering and Computer Science** -->
+- **AHS Advisory Board of Engineering and Computer Science**
+-->
 <p class="footer-note">Last updated: March 2026</p>
   </div>
 </body>
