@@ -181,12 +181,12 @@ Seasoned engineering leader with 26+ years spanning cloud infrastructure, site r
 ### Rocket Science Innovation, LLC — Founder / Contract Developer
 **2006 – 2019** | Remote / On-site
 
-- Founder of a technology development corporation.
-- 13-year ongoing contract with Open Range Access (oil field data telemetry).
-- Object-oriented software development with PHP, Java, Perl, JavaScript, Python.
-- DevOps: VPC setup and on-premise to cloud migrations.
-- Hardware design, PCB layout, microcontroller programming, Satellite/RF/Cellular communications.
-- Real-time telemetry logging and ETL to production accounting software.
+- Founder of a technology development company specializing in industrial IoT and infrastructure automation.
+- 13-year ongoing engagement with Open Range Access delivering oilfield data telemetry and monitoring solutions.
+- Full-stack software development across Python, JavaScript, PHP, C++ and Java with a focus on embedded systems and data pipeline engineering.
+- Infrastructure and DevOps: cloud architecture, VPC design, and on-premise to cloud migrations.
+- Hardware design including PCB layout, microcontroller firmware, and multi-modal communications (satellite, RF, cellular).
+- Real-time telemetry ingestion, edge data processing, and ETL integration with production accounting and ERP systems.
 
 ### Xilinx — System Developer
 **2009 – 2015**
