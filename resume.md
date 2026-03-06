@@ -142,12 +142,10 @@ Seasoned engineering leader with 26+ years spanning cloud infrastructure, site r
 ### eBay — Site Reliability Engineer
 **Jul 2017 – Mar 2019** | Remote
 
-- Covered 300B events/day across 6k services in the NOC/SEC (Nov 2018 – Mar 2019).
+- Covered 300B events/day across 6k services in the NOC/SEC.
 - Expanded mobile market into China; implemented oAuth flows (Scala/Play, Python/Flask).
-- Infrastructure as Code using Terraform, GCP; chatbot integration; Drone CI/CD.
-- Multi-region monitoring, GCP/GKE cost reduction analysis, log aggregation in k8s (daemonset, Sumologic).
-- Security auditing in GKE (Fluentd, Stackdriver), centralized Nexus repo/CD, HashiCorp Vault secrets.
-- Fraud detection / browser fingerprinting.
+- Infrastructure as Code: Terraform, GCP, Drone CI/CD, chatbot integration.
+- Multi-region monitoring, GKE cost analysis, log aggregation, HashiCorp Vault secrets management, fraud detection.
 
 ### AppThis — Full Stack Dev / SRE
 **Jan 2017 – Jul 2017**
@@ -176,17 +174,15 @@ Seasoned engineering leader with 26+ years spanning cloud infrastructure, site r
 - Full-stack Java developer supporting and maintaining hosted and installed SaaS collaboration product.
 - Employed in-memory database for contribution-based transaction shipping and long polling.
 - Led microservices migration from monolithic architecture.
-- Stack: Spring Security, SAML2, Jetty, Install4J, Comet, Angular, GWT, .NET interop, Redis, ActiveMQ, DataDog.
+- Stack: Spring Security, SAML2, Angular, Redis, ActiveMQ, DataDog.
 
 ### Rocket Science Innovation, LLC — Founder / Contract Developer
 **2006 – 2019** | Remote / On-site
 
 - Founder of a technology development company specializing in industrial IoT and infrastructure automation.
-- 13-year ongoing engagement with Open Range Access delivering oilfield data telemetry and monitoring solutions.
-- Full-stack software development across Python, JavaScript, PHP, C++ and Java with a focus on embedded systems and data pipeline engineering.
-- Infrastructure and DevOps: cloud architecture, VPC design, and on-premise to cloud migrations.
-- Hardware design including PCB layout, microcontroller firmware, and multi-modal communications (satellite, RF, cellular).
-- Real-time telemetry ingestion, edge data processing, and ETL integration with production accounting and ERP systems.
+- 13-year engagement with Open Range Access: oilfield telemetry, edge data processing, and ETL to production ERP systems.
+- Full-stack development across Python, JavaScript, and Java; hardware design including PCB layout, microcontroller firmware, and multi-modal comms (satellite, RF, cellular).
+- Cloud architecture, VPC design, and on-premise to cloud migrations.
 
 ### Xilinx — System Developer
 **2009 – 2015**
@@ -219,8 +215,6 @@ Seasoned engineering leader with 26+ years spanning cloud infrastructure, site r
 
 ### University of Colorado at Boulder
 **Aug 1999 – May 2004** — Bachelor of Computer Science
-
-*(Jun 2005 – Dec 2005, incomplete: BS in Mechanical Engineering)*
 
 ### General Assembly
 **Oct – Dec 2019** — Data Science in Python
