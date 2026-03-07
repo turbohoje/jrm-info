@@ -1,0 +1,11 @@
+# Resume build dependencies
+# Install: pip install -r requirements.txt
+#
+# WeasyPrint also needs system libraries:
+#   macOS:  brew install pango libffi
+#   Ubuntu: sudo apt install libpango-1.0-0 libpangoft2-1.0-0
+#   Docs:   https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
+
+python-frontmatter>=1.1.0
+markdown>=3.6
+weasyprint>=62.0
