@@ -99,16 +99,17 @@ Seasoned engineering leader with 26+ years spanning cloud infrastructure, site r
 **Dec 2025 – Present** | Denver, CO (Remote)
 
 - Delivered escalated support for Andromeda customers, partnering directly with GPU hardware vendors to diagnose and resolve infrastructure-level hardware and storage issues across cloud environments.
-- Launched the first aggregated observability platform for a heterogeneous fleet of Slurm clusters and raw GPU Kubernetes deployments, improving visibility, incident response time, and operational consistency.
+- Launched the first unified observability platform across a heterogeneous fleet of Slurm clusters and GPU Kubernetes deployments, migrating from bespoke Prometheus instances to Victoria Metrics and Alloy to improve visibility, incident response time, and operational consistency.
 - Managed AI/ML training pipeline infrastructure leveraging modern tools on distributed GPU clusters; integrated DCGM and NVIDIA NGC for GPU health monitoring and model deployment.
 - Led regular Argo CD and Helm upgrade cycles, conducting peer reviews and enforcing deployment best practices to maintain platform stability and release reliability.
 
 ### AppOmni — Technical Lead Manager
 **Jan 2025 – Dec 2025** | Denver, CO
 
-- Served as DRI for FinOps operations and billing contract negotiations, ensuring financial efficiency and favorable vendor terms.
+- Served as DRI for FinOps and billing contract negotiations, reducing GCP spend by over 20% through CUD laddering and favorable vendor terms.
 - Championed agile process improvements that elevated team discipline, visibility, and delivery predictability.
-- Established a blameless incident culture and regular retrospectives, fostering continuous improvement and accountability while implementing FireHydrant to enhance incident response.
+- Extended observability platform to include hourly cost-of-operation metrics, providing real-time visibility into surge costs.
+- Established a blameless incident culture with regular retrospectives and FireHydrant-driven incident response, fostering continuous improvement and team accountability.
 
 ### AppOmni — Lead Site Reliability Engineer
 **Nov 2023 – Jan 2025** | Denver, CO
