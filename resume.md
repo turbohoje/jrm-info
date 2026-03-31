@@ -23,10 +23,10 @@ pdf:
   font_size_h1: "16pt"
   font_size_h2: "10pt"
   font_size_h3: "9pt"
-  margin_top: "0.38in"
-  margin_bottom: "0.38in"
-  margin_left: "0.48in"
-  margin_right: "0.48in"
+  margin_top: "0.3in"
+  margin_bottom: "0.3in"
+  margin_left: "0.38in"
+  margin_right: "0.38in"
   line_height: "1.3"
   color_accent: "#0066cc"
   color_text: "#000000"
@@ -95,11 +95,14 @@ Seasoned engineering leader with 26+ years spanning cloud infrastructure, site r
 
 ## Experience
 
-### Andromeda Cluster — AI Infrastructure Engineer
-**Dec 2025 – Present** | Denver, CO (Remote)
+### Volta AI — Staff AI Infrastructure Engineer
+**Apr 2026 – Present** | Denver, CO (Remote)
 
-- Delivered escalated support for Andromeda customers, partnering directly with GPU hardware vendors to diagnose and resolve infrastructure-level hardware and storage issues across cloud environments.
-- Launched the first unified observability platform across a heterogeneous fleet of Slurm clusters and GPU Kubernetes deployments, migrating from bespoke Prometheus instances to Victoria Metrics and Alloy to improve visibility, incident response time, and operational consistency.
+### Andromeda Cluster — AI Infrastructure Engineer
+**Dec 2025 – Mar 2025** | Denver, CO (Remote)
+
+- Delivered escalated support for Andromeda customers, partnering directly with GPU hardware vendors to diagnose and resolve infrastructure-level hardware and storage issues across cloud providers.
+- Launched the first unified observability platform across a heterogeneous fleet of Slurm clusters and GPU Kubernetes deployments, migrating from bespoke Prometheus instances to Victoria Metrics and Alloy.
 - Managed AI/ML training pipeline infrastructure leveraging modern tools on distributed GPU clusters; integrated DCGM and NVIDIA NGC for GPU health monitoring and model deployment.
 - Led regular Argo CD and Helm upgrade cycles, conducting peer reviews and enforcing deployment best practices to maintain platform stability and release reliability.
 
@@ -164,7 +167,7 @@ Seasoned engineering leader with 26+ years spanning cloud infrastructure, site r
 - Java 1.8 + Spring Boot microservice migration.
 
 ### Starz Entertainment — Sr. Cloud Engineer
-**Jun 2016 – Nov 2016**
+**Jun 2016 – Nov 2016** | Contract
 
 - Maintained AWS and local tooling: Terraform, Consul, Nomad, Packer, Docker, Bamboo, Ansible.
 - Built PaaS-agnostic redirect dashboard for starz.com (Meteor/Node + Angular2 frontend managing nginx cluster).
