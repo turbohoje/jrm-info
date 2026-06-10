@@ -91,7 +91,7 @@ analytics:
 
 ## Summary
 
-Seasoned engineering leader with 26+ years spanning cloud infrastructure, site reliability, and AI/GPU systems. Proven record of building SRE organizations from scratch, driving FedRAMP/SOC2 compliance, and scaling multi-cloud platforms across regulated and high-throughput environments. Currently leading AI infrastructure and observability at Andromeda Cluster, focused on GPU-centric cloud platforms and distributed ML training pipeline reliability.
+Seasoned engineering leader with 26+ years spanning cloud infrastructure, site reliability, and AI/GPU systems — pairing deep operational experience with hands-on AI fluency to ship reliable, modern platforms. Proven record of building SRE organizations from scratch, driving FedRAMP/SOC2 compliance, and scaling multi-cloud platforms across regulated and high-throughput environments. Currently leading AI infrastructure and observability at Andromeda Cluster, focused on GPU-centric cloud platforms and distributed ML training pipeline reliability.
 
 ## Experience
 
