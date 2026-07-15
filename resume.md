@@ -188,7 +188,7 @@ Seasoned engineering leader with 26+ years spanning cloud infrastructure, site r
 - Full-stack development across Python, JavaScript, and Java; hardware design including PCB layout, microcontroller firmware, and multi-modal comms (satellite, RF, cellular).
 - Cloud architecture, VPC design, and on-premise to cloud migrations.
 
-### Xilinx — System Developer
+### AMD / Xilinx — System Developer
 **2009 – 2015**
 
 ### Codeffects.com, LLC — Co-Founder
