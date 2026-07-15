@@ -160,7 +160,7 @@ Seasoned engineering leader with 26+ years spanning cloud infrastructure, site r
 - Log shipping migration to streams.
 - PHP (HipHop, PHP7), Java, Scala (Play).
 
-### CenturyLink — Full Stack Java Developer
+### Lumen — Full Stack Java Developer
 **Nov 2016 – Jan 2017** | Contract
 
 - VeuxDu team member on e911 and SpeakEasy projects.
