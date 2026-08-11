@@ -19,7 +19,7 @@ meta:
 pdf:
   page_size: letter          # letter | A4
   font_family: "Arial, sans-serif"
-  font_size_body: "8.3pt"
+  font_size_body: "7.9pt"
   font_size_h1: "16pt"
   font_size_h2: "10pt"
   font_size_h3: "9pt"
@@ -91,12 +91,15 @@ analytics:
 
 ## Summary
 
-Seasoned engineering leader with 26+ years spanning cloud infrastructure, site reliability, and AI/GPU systems — pairing deep operational experience with hands-on AI fluency to ship reliable, modern platforms. Proven record of building SRE organizations from scratch, driving FedRAMP/SOC2 compliance, and scaling multi-cloud platforms across regulated and high-throughput environments. Currently leading AI infrastructure and observability at Andromeda Cluster, focused on GPU-centric cloud platforms and distributed ML training pipeline reliability.
+Seasoned engineering leader with 26+ years spanning cloud infrastructure, site reliability, and AI/GPU systems — pairing deep operational experience with hands-on AI fluency to ship reliable, modern platforms. Proven record of building SRE organizations from scratch, driving FedRAMP/SOC2 compliance, and scaling multi-cloud platforms across regulated and high-throughput environments. Currently leading AI infrastructure at Volta, focused on GPU-centric cloud platforms and distributed ML training pipeline reliability.
 
 ## Experience
 
 ### Volta AI — Staff AI Infrastructure Engineer
 **Apr 2026 – Present** | Denver, CO (Remote)
+
+- Building The Utility of Compute™ at Volta — a vertically integrated AI infrastructure platform putting capital, powered land, data centers, compute, and software under one roof, delivering GPU capacity the way electricity should arrive: dependable, plentiful, and ready when you need it.
+- Focused on the platform and operations layer making compute possible at gigawatt scale.
 
 ### Andromeda Cluster — AI Infrastructure Engineer
 **Dec 2025 – Mar 2025** | Denver, CO (Remote)
